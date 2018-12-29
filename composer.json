@@ -1,0 +1,24 @@
+{
+    "name": "jjg/result",
+    "description": "response data class",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JJGMAC",
+            "email": "378823123@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Ml\\Result\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ml\\Result\\ResultServiceProvider"
+            ]
+        }
+    }
+}
